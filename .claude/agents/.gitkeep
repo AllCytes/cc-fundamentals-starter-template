@@ -1,0 +1,14 @@
+# Agents Folder
+#
+# Agents are specialized subagent configurations for delegated tasks.
+# Each agent markdown file defines a focused task executor.
+#
+# Structure:
+#   agents/
+#   ├── code-reviewer.md
+#   ├── test-runner.md
+#   └── doc-generator.md
+#
+# Usage: Claude spawns these via the Task tool for focused work.
+#
+# Learn more in Module 6: Subagents

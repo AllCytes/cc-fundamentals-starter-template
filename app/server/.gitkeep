@@ -1,0 +1,9 @@
+# Backend Server (Optional)
+#
+# Your backend API code goes here.
+# Examples:
+# - Express.js API
+# - FastAPI (Python)
+# - Next.js API routes (can also live in client/)
+#
+# Remove this folder if your project is frontend-only.

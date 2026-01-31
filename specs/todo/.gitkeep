@@ -1,0 +1,8 @@
+# Plans To Build
+#
+# Use /EA-plan to create detailed implementation specs here.
+# When built successfully, plans move to specs/done/
+#
+# Workflow:
+#   1. /EA-plan "feature description" -> creates spec here
+#   2. /EA-build specs/todo/my-feature.md -> implements and moves to done/

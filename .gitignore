@@ -1,0 +1,42 @@
+# Environment variables (NEVER commit these!)
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+*.log
+*.tmp
+
+# Claude Code local settings (personal, not shared)
+.claude/settings.local.json
+
+# Test and coverage
+coverage/
+.nyc_output/
+*.coverage
+
+# Omni-Cortex (local memory - not shared)
+.omni-cortex/

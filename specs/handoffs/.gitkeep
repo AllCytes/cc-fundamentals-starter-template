@@ -1,0 +1,10 @@
+# Session Handoffs
+#
+# Use /EA-handoff to save your session state before ending.
+# Use /EA-pickup to resume from the most recent handoff.
+#
+# Handoffs capture:
+# - What you were working on
+# - What was completed
+# - Next steps
+# - Key files

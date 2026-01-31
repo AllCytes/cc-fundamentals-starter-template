@@ -1,0 +1,10 @@
+# AI Documentation
+#
+# API documentation and reference materials for Claude to use.
+# Put third-party API docs, SDK references, or integration guides here.
+#
+# Claude reads these to understand external services your app uses.
+# Examples:
+# - Stripe API reference
+# - Supabase documentation
+# - Custom API specifications

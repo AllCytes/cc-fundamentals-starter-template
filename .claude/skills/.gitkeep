@@ -1,0 +1,13 @@
+# Skills Folder
+#
+# Skills are multi-file capability packages that extend Claude's abilities.
+# Each skill has a SKILL.md entry point and optional cookbook/ workflows.
+#
+# Structure:
+#   skills/
+#   └── my-skill/
+#       ├── SKILL.md      # Entry point with triggers and decision tree
+#       └── cookbook/     # Workflow guides
+#           └── workflow.md
+#
+# Learn more in Module 5: Skills
