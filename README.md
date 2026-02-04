@@ -2,6 +2,26 @@
 
 A production-ready project template for the Claude Code Fundamentals course. Clone this repo to start any new project with best practices built in.
 
+## Make It Your Own
+
+After cloning, remove the original remote and create your own GitHub repository:
+
+**Windows (PowerShell)**
+```powershell
+git remote remove origin
+gh repo create cc-fundamentals-starter-template --public --source=. --remote=origin --push
+```
+
+**Mac / Linux**
+```bash
+git remote remove origin
+gh repo create cc-fundamentals-starter-template --public --source=. --remote=origin --push
+```
+
+> **Prerequisite:** Install the [GitHub CLI](https://cli.github.com/) — `winget install GitHub.cli` (Windows) or `brew install gh` (Mac), then run `gh auth login` once.
+
+---
+
 ## Quick Start
 
 ```bash
