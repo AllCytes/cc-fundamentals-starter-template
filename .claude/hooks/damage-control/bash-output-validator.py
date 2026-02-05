@@ -170,14 +170,18 @@ def main():
 
     tool_name = input_data.get("tool_name", "")
 
-    if tool_name != "Bash":
+    if tool_name not in ("Bash", "Read"):
         sys.exit(0)
 
     tool_output = input_data.get("tool_output", {})
-    stdout = str(tool_output.get("stdout", ""))
-    stderr = str(tool_output.get("stderr", ""))
 
-    content = stdout + "\n" + stderr
+    if tool_name == "Bash":
+        stdout = str(tool_output.get("stdout", ""))
+        stderr = str(tool_output.get("stderr", ""))
+        content = stdout + "\n" + stderr
+    else:
+        # Read tool returns file content
+        content = str(tool_output.get("output", ""))
 
     if not content.strip():
         sys.exit(0)

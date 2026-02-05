@@ -32,7 +32,7 @@ def load_patterns():
     if not patterns_file.exists():
         return {}
 
-    with open(patterns_file, "r") as f:
+    with open(patterns_file, "r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
 
 

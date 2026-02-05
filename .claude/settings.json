@@ -24,7 +24,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python .claude/hooks/damage-control/bash-tool-guard.py"
+            "command": "python .claude/hooks/damage-control/bash-tool-guard.py",
+            "timeout": 10000
           }
         ]
       },
@@ -33,7 +34,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python .claude/hooks/damage-control/edit-tool-guard.py"
+            "command": "python .claude/hooks/damage-control/edit-tool-guard.py",
+            "timeout": 10000
           }
         ]
       },
@@ -42,7 +44,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python .claude/hooks/damage-control/write-tool-guard.py"
+            "command": "python .claude/hooks/damage-control/write-tool-guard.py",
+            "timeout": 10000
           }
         ]
       }
@@ -53,7 +56,18 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python .claude/hooks/damage-control/bash-output-validator.py"
+            "command": "python .claude/hooks/damage-control/bash-output-validator.py",
+            "timeout": 10000
+          }
+        ]
+      },
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/damage-control/bash-output-validator.py",
+            "timeout": 10000
           }
         ]
       }
